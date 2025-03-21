@@ -23,7 +23,7 @@ const ContactForm = ({ onClose }) => {
 
     try {
       const res = await axios.post(
-        "https://safa-backend.onrender.com/api/flight",
+        "https://safa-backend.onrender.com/api/contact",
         formData
       );
       alert(res.data.message);
